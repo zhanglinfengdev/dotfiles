@@ -1,0 +1,59 @@
+{
+    "title": "输入法切换键",
+    "rules": [
+        {
+            "description": "输入法切换键",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "spacebar",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_control",
+                                "left_shift"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "osascript -e 'display notification with title \"[ zh-Hans ]\"'"
+                        },
+                        {
+                            "select_input_source": {
+                                "language": "zh-Hans"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "spacebar",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_control"
+                            ],
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "osascript -e 'display notification with title \"[ en ]\"'"
+                        },
+                        {
+                            "select_input_source": {
+                                "language": "en"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
