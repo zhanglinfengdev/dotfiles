@@ -520,6 +520,7 @@ call plug#begin('~/.vim/plugged')
     " Plug 'SirVer/ultisnips'
     " Snippets are separated from the engine. Add this if you want them:
     " Plug 'honza/vim-snippets'
+    Plug 'ron-rs/ron.vim'
 call plug#end()
 
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:

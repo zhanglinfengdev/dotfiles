@@ -1,7 +1,4 @@
-c
-kkkkk
 shell vim 宫崎骏.txt
-
 [49;15ukkkkkkk
 rename mpvBBBBBB
 rename mpv
@@ -42,9 +39,12 @@ search pre
 search appli
 search course
 search tencent
-search config
 search mpv
 search 
 search kitty
 delete
+search config
+search ran
 search ranger
+rename key_bindings.ron
+
