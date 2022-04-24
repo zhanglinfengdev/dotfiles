@@ -64,10 +64,10 @@ spacebar -m config title                       on
 spacebar -m config spaces                      on
 spacebar -m config clock                       on
 spacebar -m config power                       off
-spacebar -m config padding_left                20
-spacebar -m config padding_right               20
-spacebar -m config spacing_left                25
-spacebar -m config spacing_right               15
+spacebar -m config padding_left                2
+spacebar -m config padding_right               2
+spacebar -m config spacing_left                4
+spacebar -m config spacing_right               4
 # spacebar -m config text_font                 "Helvetica Neue:Bold:10.0"
 spacebar -m config text_font                   "Menlo:Regular:10.0"
 spacebar -m config icon_font                   "Font Awesome 5 Free:Solid:10.0"
@@ -84,7 +84,7 @@ spacebar -m config space_icon_color            0xffffab91
 spacebar -m config space_icon_color_secondary  0xff78c4d4
 spacebar -m config space_icon_color_tertiary   0xfffff9b0
 # spacebar -m config space_icon_strip                           
-spacebar -m config space_icon_strip            0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101 1110 1111
+spacebar -m config space_icon_strip            000 001 010 011 100 101 110 111
 spacebar -m config spaces_for_all_displays     on
 spacebar -m config clock_icon                  
 spacebar -m config dnd_icon                    
