@@ -1,24 +1,10 @@
-shell vim 宫崎骏.txt
-[49;15ukkkkkkk
-rename mpvBBBBBB
-rename mpv
-search rna
-search movi
-search rnager
-search android
-search prefenren
-search prefen
-search preferen
-search com.jet
 [53;15u
 search log
 search ib
-search cache
 search prefe
 search jjj
 search logd
 search logs
-search support
 search java
 jjjjjjjj
 search intel
@@ -27,7 +13,6 @@ cd
 search obs
 search cocu
 search docu
-search lib
 search contai
 search idea
 search jet
@@ -40,11 +25,26 @@ search appli
 search course
 search tencent
 search mpv
-search 
 search kitty
-delete
-search config
 search ran
-search ranger
 rename key_bindings.ron
 
+shell mkdir cigeng
+search kkkkkhkjkj
+search ranger
+search 
+shell upp
+search supp
+rename simple-barBackup
+search support
+search ache
+search cache
+search lib
+delete
+search ub
+search nnnnn
+search nn
+search ber
+search config
+search yabai
+search space
