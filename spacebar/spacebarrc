@@ -57,21 +57,21 @@
 
 #!/usr/bin/env sh
 
-spacebar -m config position                    top
+spacebar -m config position                    bottom
 spacebar -m config display                     all
-spacebar -m config height                      10
+spacebar -m config height                      18
 spacebar -m config title                       on
 spacebar -m config spaces                      on
 spacebar -m config clock                       on
 spacebar -m config power                       off
-spacebar -m config padding_left                2
-spacebar -m config padding_right               2
-spacebar -m config spacing_left                4
-spacebar -m config spacing_right               4
+spacebar -m config padding_left                10
+spacebar -m config padding_right               10
+spacebar -m config spacing_left                0
+spacebar -m config spacing_right               0
 # spacebar -m config text_font                 "Helvetica Neue:Bold:10.0"
-spacebar -m config text_font                   "Menlo:Regular:10.0"
-spacebar -m config icon_font                   "Font Awesome 5 Free:Solid:10.0"
-spacebar -m config background_color            0xff202020
+spacebar -m config text_font                   "Menlo:Regular:18.0"
+spacebar -m config icon_font                   "Font Awesome 5 Free:Solid:18.0"
+spacebar -m config background_color            0xff232323
 # spacebar -m config background_color            0xff000000
 spacebar -m config foreground_color            0xffa8a8a8
 spacebar -m config power_icon_color            0xffcd950c
@@ -80,11 +80,12 @@ spacebar -m config dnd_icon_color              0xffa8a8a8
 spacebar -m config clock_icon_color            0xffa8a8a8
 spacebar -m config power_icon_strip             
 spacebar -m config space_icon                  •
-spacebar -m config space_icon_color            0xffffab91
+# spacebar -m config space_icon_color            0xffffab91
+spacebar -m config space_icon_color            0xff00ff00
 spacebar -m config space_icon_color_secondary  0xff78c4d4
 spacebar -m config space_icon_color_tertiary   0xfffff9b0
 # spacebar -m config space_icon_strip                           
-spacebar -m config space_icon_strip            000 001 010 011 100 101 110 111
+spacebar -m config space_icon_strip            00 01 02 10 11 12 20 21 22
 spacebar -m config spaces_for_all_displays     on
 spacebar -m config clock_icon                  
 spacebar -m config dnd_icon                    

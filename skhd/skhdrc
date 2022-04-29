@@ -68,11 +68,11 @@ alt - x : yabai -m space --focus recent
 rcmd - l : yabai -m space --focus recent
 # cmd + alt - z : yabai -m space --focus prev || skhd -k "ctrl + alt + cmd - z"
 alt - z : yabai -m space --focus prev || skhd -k "ctrl + alt + cmd - z"
-rcmd - j : yabai -m space --focus prev || skhd -k "ctrl + alt + cmd - z"
+rcmd - j : yabai -m space --focus prev || skhd -k "rcmd - j"
 # lcmd - j : yabai -m space --focus prev || skhd -k "ctrl + alt + cmd - z"
 # cmd + alt - c : yabai -m space --focus next || skhd -k "ctrl + alt + cmd - c"
 alt - c : yabai -m space --focus next || skhd -k "ctrl + alt + cmd - c"
-rcmd - k : yabai -m space --focus next || skhd -k "ctrl + alt + cmd - c"
+rcmd - k : yabai -m space --focus next || skhd -k "rcmd - k"
 # lcmd - k : yabai -m space --focus next || skhd -k "ctrl + alt + cmd - c"
 # cmd + alt - 1 : yabai -m space --focus  1 || skhd -k "ctrl + alt + cmd - 1"
 alt - 1 : yabai -m space --focus  1 || skhd -k "ctrl + alt + cmd - 1"
