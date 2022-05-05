@@ -20,7 +20,7 @@ yabai -m config window_shadow                off
 yabai -m config window_opacity               on
 yabai -m config window_opacity_duration      0.0
 yabai -m config active_window_opacity        1.0
-yabai -m config normal_window_opacity        0.88
+yabai -m config normal_window_opacity        0.95
 yabai -m config window_border                off
 yabai -m config window_border_width          1
 # yabai -m config window_border_radius         4.0
@@ -46,30 +46,30 @@ yabai -m config layout                       bsp
 # yabai -m config top_padding                  20
 # yabai -m config top_padding                  1
 # yabai -m config top_padding                  6
-yabai -m config top_padding                  0
+yabai -m config top_padding                  5
 
 # yabai -m config bottom_padding               20
 # yabai -m config bottom_padding               1
-yabai -m config bottom_padding               0
+yabai -m config bottom_padding               5
 
 # yabai -m config left_padding                 40
 # yabai -m config left_padding                 2
-yabai -m config left_padding                 0
+yabai -m config left_padding                 5
 
 # yabai -m config right_padding                40
 # yabai -m config right_padding                2
-yabai -m config right_padding                0
+yabai -m config right_padding                5
 
 # yabai -m config window_gap                   20
-yabai -m config window_gap                   2
+yabai -m config window_gap                   6
 # yabai -m config window_gap                   0
 
 # mission-control desktop labels
-yabai -m space 1 --label code
-yabai -m space 2 --label mail
+yabai -m space 1 --label terminal
+yabai -m space 2 --label code
 yabai -m space 3 --label web
 yabai -m space 4 --label notes
-yabai -m space 5 --label re
+yabai -m space 5 --label mail
 yabai -m space 6 --label media
 yabai -m space 7 --label social
 yabai -m space 8 --label games
@@ -82,7 +82,7 @@ yabai -m config --space games layout        float
 # yabai -m rule --add app="^Mail$" space=mail
 # yabai -m rule --add app="^Safari$" space=web
 # yabai -m rule --add app="^Notes$" space=notes
-# yabai -m rule --add app="^ida64$" space=re
+yabai -m rule --add app="^idea$" space=code
 # yabai -m rule --add app="^Transmission$" space=media
 # yabai -m rule --add app="^Spotify$" space=media
 # yabai -m rule --add app="^Discord$" space=social grid=1:1:0:0:1:1 manage=off
