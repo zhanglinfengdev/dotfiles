@@ -59,7 +59,7 @@
 
 spacebar -m config position                    bottom
 spacebar -m config display                     all
-spacebar -m config height                      18
+spacebar -m config height                      12
 spacebar -m config title                       on
 spacebar -m config spaces                      on
 spacebar -m config clock                       on
@@ -69,8 +69,8 @@ spacebar -m config padding_right               10
 spacebar -m config spacing_left                0
 spacebar -m config spacing_right               0
 # spacebar -m config text_font                 "Helvetica Neue:Bold:10.0"
-spacebar -m config text_font                   "Menlo:Regular:18.0"
-spacebar -m config icon_font                   "Font Awesome 5 Free:Solid:18.0"
+spacebar -m config text_font                   "Menlo:Regular:12.0"
+spacebar -m config icon_font                   "Font Awesome 5 Free:Solid:12.0"
 spacebar -m config background_color            0xff232323
 # spacebar -m config background_color            0xff000000
 spacebar -m config foreground_color            0xffa8a8a8
