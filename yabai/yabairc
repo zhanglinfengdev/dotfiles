@@ -8,14 +8,14 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 # global settings
 # yabai -m config external_bar                 off:45:0
 yabai -m config external_bar                 off:0:12
-yabai -m config mouse_follows_focus          on
+yabai -m config mouse_follows_focus          off
 # focus_follows_mouse [autofocus|autoraise|off]
-yabai -m config focus_follows_mouse          autoraise
+yabai -m config focus_follows_mouse          off
 # window_origin_display [default|focused|cursor]
-yabai -m config window_origin_display        default
+yabai -m config window_origin_display        focused
 # window_placement [first_child|second_child]
 yabai -m config window_placement             second_child
-yabai -m config window_topmost               on
+yabai -m config window_topmost               off
 yabai -m config window_shadow                off
 yabai -m config window_opacity               off
 yabai -m config window_opacity_duration      0.0
@@ -32,14 +32,15 @@ yabai -m config window_border_width          5
 # limelight -m config active_color     0xff775759
 # limelight -m config normal_color     0xff555555
 yabai -m config active_window_border_color   0xFF775759
+# yabai -m config active_window_border_color   0xFFAA686A
 # yabai -m config active_window_border_color   0xFF000000
 # yabai -m config active_window_border_color   0xff555555
 # yabai -m config normal_window_border_color   0x11454c54
-yabai -m config normal_window_border_color   0xFF292929
+yabai -m config normal_window_border_color   0xFF242424
 # yabai -m config normal_window_border_color   0xff555555
 yabai -m config insert_feedback_color        0xaa7c5c9c
 yabai -m config split_ratio                  0.50
-yabai -m config auto_balance                 on
+yabai -m config auto_balance                 off
 yabai -m config mouse_modifier               fn
 yabai -m config mouse_action1                move
 yabai -m config mouse_action2                resize

@@ -1466,3 +1466,12 @@ Traceback (most recent call last):
   File "/usr/local/bin/bpytop", line 5479, in process_keys
     os.kill(pid, sig)
 PermissionError: [Errno 1] Operation not permitted
+10/05/22 (20:02:30) | ERROR: Data collection thread failed with exception: '>' not supported between instances of 'str' and 'int'
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 2958, in _runner
+    collector._collect()
+  File "/usr/local/bin/bpytop", line 3847, in _collect
+    if mem > 80: mem = round(mem)
+TypeError: '>' not supported between instances of 'str' and 'int'
+10/05/22 (20:02:30) | WARNING: Exiting with errorcode (1). Runtime 0:01:12 
+
