@@ -521,8 +521,10 @@ call plug#begin('~/.vim/plugged')
     " Snippets are separated from the engine. Add this if you want them:
     " Plug 'honza/vim-snippets'
     Plug 'ron-rs/ron.vim'
+    Plug 'vim-autoformat/vim-autoformat'
 call plug#end()
 
+let g:python3_host_prog="/usr/local/bin/python3"
 " Trigger configuration. You need to change this to something other than <tab> if you use one of the following:
 " - https://github.com/Valloric/YouCompleteMe
 " - https://github.com/nvim-lua/completion-nvim

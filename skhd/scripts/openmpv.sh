@@ -21,7 +21,7 @@ EOF
 #     display notification "$filename" with title "$text"
 # EOF
 
-mpv $(pbpaste)
+mpv "$(pbpaste)"
 # mpv --ytdl-raw-options=proxy="[socks5://127.0.0.1:1090]" $(pbpaste)
 # mpv --ytdl-raw-options-append=proxy="socks5://127.0.0.1:1090" $(pbpaste)
 # mpv --ytdl-raw-options=proxy="[socks5://127.0.0.1:1090]" --ytdl-raw-options-append=proxy="socks5://127.0.0.1:1090" $(pbpaste)

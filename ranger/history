@@ -1,50 +1,50 @@
-search skhd
-shell chmod ./mpv.config +777
-search range
-open_with l
-search zsh
-search config
-search kitty
-search in
-search da
-search 闫
-search dp
-search fa
-search desk
-search ske
-search current
-rename .skhdrcBackup
-rename .yabaircBackup
-rename yabaircBackup
-rename skhdrcBackup
-rename yabairc__
-rename skhdrc__
-search lib
-search andro
-search an
-search pro
-search su
-search google
-search cache
-search docuw
-open_with 
-shell touch aaa.txt
-delete
-search yout
-search obs
-search ragner
-shell S
-search 
 search bai
 shell mkdir zips
 rename zips
 rename Zzips
 rename ~`q【优库IT视频网 ukoou.com】作业.txt
-search mpv
 search yabai
-search down
-search docu
-search you
-search pic
 search rnager
+search baidu
+shell mkdir 模板
+rename 2_.docx
+rename 3_.docx
+rename 4_.docx
+rename 5_.docx
+rename 6_.docx
+rename 10_.docx
+rename 15_.docx
+rename 124_.docx
+rename 126_.docx
+rename 138_.docx
+search ding
+search cache
+search conten
+search contnet
+search on
+search con
+search din
+search pic
+search down
+delete
+rename 【Android技术开发 _ 北京】张林锋5年.pdf
+shell 
+search deskjkjk
+search lib
+search support
+search micro
+search vim
+search sh
+shell javac ./Format.java
+bulkrename
+search sm
+search s
+search mpv
+search kitty
+search skhd
+search you
 search ranger
+search idea
+search desk
+search 
+search docu
